@@ -1,7 +1,7 @@
 .header {
     height: 35vw;
     width: 80vw;
-    background: url('../../../../frontend/public/header_img.png') no-repeat;
+    background: url('../../assets/header_img.png') no-repeat;
     background-size: contain;
     position: relative;
     display: flex; /* Add display: flex; to make child positioning easier */
