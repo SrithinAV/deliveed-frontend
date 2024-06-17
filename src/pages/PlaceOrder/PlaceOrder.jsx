@@ -74,7 +74,7 @@ const PlaceOrder = ({setSignIn}) => {
     if(response.data.success)
     {
       <Order />
-      window.location.replace('http://localhost:3000/orders');
+      window.location.replace('https://deliveed/orders');
     }
     else
     {
