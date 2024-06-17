@@ -8,9 +8,9 @@ const Navbar = ({setSignIn, setSearch}) => {
     const [menu, setMenu] =useState("menu");
     const {getTotalCartAmount,tocken, setTocken, Url } = useContext(StoreContext)
 
-    const orderLink = Url.split(':')[0] + '://' + Url.split('/')[2].split(':')[0] + ':3000/orders';// Extracting the protocol and hostname
+    // const orderLink = Url.split(':')[0] + '://' + Url.split('/')[2].split(':')[0] + ':3000/orders';// Extracting the protocol and hostname
 
-    
+    const orderLink = 'https://deliveed.com/orders';
    
    const navigate = useNavigate();
     const logout = ()=>
