@@ -74,7 +74,7 @@ const PlaceOrder = ({setSignIn}) => {
     if(response.data.success)
     {
       <Order />
-      window.location.replace('http://deliveed.com/orders');
+      window.location.replace('https://deliveed.com/orders');
     }
     else
     {
