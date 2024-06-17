@@ -10,7 +10,7 @@ const Footer = () => {
 
             <div className="footer-content-right">
                 <img  className='footer-content-right-logo' src={assets.logo} alt=''/>
-                <p>This is tomato where you can make your dream food come<br /> true come and enjoy our delicious variety of foods</p> 
+                <p>This is deliveed where you can make your dream food come<br /> true come and enjoy our delicious variety of foods</p> 
            
              <div className="social-media">
                 <a href="https://facebook.com/"><img src={assets.facebook_icon} alt="" /></a>
