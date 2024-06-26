@@ -31,13 +31,14 @@
     display: none;
 }
 
-.explore-menu-list-item img{
-    width: 7.5vw;
-   min-width: 80px;
+.explore-menu-list-item img {
+    width: 50%;
+    height: 50%;
+    min-width: 80px;
+    min-height: 80px; /* Ensure height also has a minimum value */
     border-radius: 50%;
     cursor: pointer;
     transition: 0.2s;
-
 }
 
 .explore-menu-list-item p
